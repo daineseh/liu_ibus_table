@@ -21,7 +21,7 @@
         LANGUAGES = zh_TW
         AUTHOR = Boshiamy Corp. Reic Wang
         STATUS_PROMPT = TW
-        VALID_INPUT_CHARS = ,.'abcdefghijklmnopqrstuvwxyz[]
+        VALID_INPUT_CHARS = ;,.'abcdefghijklmnopqrstuvwxyz[]
         LAYOUT = us
         MAX_KEY_LENGTH = 5
         AUTO_COMMIT = FALSE
