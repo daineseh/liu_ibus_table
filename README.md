@@ -1,6 +1,6 @@
 ## liu_ibus_table
 
-致力至與 Windows/Mac 下使用習慣一致的方向調整
+盡量與官方版本使用習慣一致的方向調整
 
 ### 使用方法: (適用於任何版本 Ubuntu/Debian )
 
