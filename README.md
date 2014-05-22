@@ -8,7 +8,6 @@ liu_ibus_table
 
 2. 確定已 cd 到檔案所在的資料夾底下，在terminal輸入以下指令
         sudo ibus-table-createdb -s liu_ibus_table.txt -n liu.db
-        (這行要跑好幾秒，請等一下)
 
 3. 把剛剛產生出來的 .db檔以及資料夾裡原有的icon複製到ibus-table資料夾底下
         sudo cp liu.db /usr/share/ibus-table/tables/
