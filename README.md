@@ -26,10 +26,6 @@
 
 ### 字根表說明
 
-#### liu_ibus_table.txt:
-
-* 有調整過加權，比較常用字元版本，約2萬8千多個字
-
-#### liu_ibus_table.full.txt
+#### liu_ibus_table.txt
 
 * 網路上所散布較完整的字元表，並過濾冗餘字元，使 ibus-table-createdb 不會產生錯誤訊息
