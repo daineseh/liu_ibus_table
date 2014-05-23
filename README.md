@@ -29,3 +29,21 @@
 #### liu_ibus_table.txt
 
 * 網路上所散布較完整的字元表，並過濾冗餘字元，使 ibus-table-createdb 不會產生錯誤訊息
+
+### 加字加詞擴充說明
+
+#### customize.txt
+
+* 可將自訂字詞加在此檔，然後重新建立table
+
+    head -n -2  liu_ibus_table.txt > cust_table.txt && cat customize.txt >> cust_table.txt && tail -2 liu_ibus_table.txt >> cust_table.txt
+    
+    sudo ibus-table-createdb -s cust_table.txt -n liu.db
+    
+    sudo cp liu.db /usr/share/ibus-table/tables/
+    sudo cp liu.png /usr/share/ibus-table/icons/
+    
+* 表格說明:
+    每行由空白分割最後一個欄位為優先權，為了與原本liu_ibus_table.txt區分，最好由101開始，避免選字上的問題
+
+    
