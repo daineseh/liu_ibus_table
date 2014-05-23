@@ -36,13 +36,16 @@
 
 * 可將自訂字詞加在此檔，然後重新建立table
 
-    head -n -2  liu_ibus_table.txt > cust_table.txt && cat customize.txt >> cust_table.txt && tail -2 liu_ibus_table.txt >> cust_table.txt
+```sh
+head -n -2  liu_ibus_table.txt > cust_table.txt && cat customize.txt >> cust_table.txt && tail -2 liu_ibus_table.txt >> cust_table.txt
     
-    sudo ibus-table-createdb -s cust_table.txt -n liu.db
+sudo ibus-table-createdb -s cust_table.txt -n liu.db
     
-    sudo cp liu.db /usr/share/ibus-table/tables/
-    sudo cp liu.png /usr/share/ibus-table/icons/
-    
+sudo cp liu.db /usr/share/ibus-table/tables/
+sudo cp liu.png /usr/share/ibus-table/icons/
+```
+
+
 * 表格說明:
     每行由空白分割最後一個欄位為優先權，為了與原本liu_ibus_table.txt區分，最好由101開始，避免選字上的問題
 
